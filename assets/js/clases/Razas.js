@@ -11,7 +11,7 @@ class Saiyajin extends Personaje {
     }
 }
 
-    class Humano extends Personaje {
+class Humano extends Personaje {
     constructor(nombre, img, poder, raza) {
         super(nombre, img, poder, raza)
     }
@@ -22,5 +22,5 @@ class Saiyajin extends Personaje {
     }
 }
 
-console.log(new Humano("krilin", "....", "1234", "...."));
+export { Saiyajin, Humano };
 
