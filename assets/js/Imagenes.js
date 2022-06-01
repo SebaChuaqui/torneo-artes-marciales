@@ -14,8 +14,10 @@ document.getElementById("buttonImages").addEventListener("click", async () => {
 
     document.querySelectorAll(".personajes img").forEach((i) => {
         i.addEventListener("click", (e) => {
-            $("#imagenModal").modal("toggle");
+            $("#imagenesModal").modal("toggle");
             const imagenSrc = e.target.src;
+            document.getElementById("preview"
+            ).style.backgroundImage = `url(${imagenSrc})`;
         });
     });
 });
