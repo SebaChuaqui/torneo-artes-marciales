@@ -22,3 +22,5 @@ class Saiyajin extends Personaje {
     }
 }
 
+console.log(new Humano("krilin", "....", "1234", "...."));
+
